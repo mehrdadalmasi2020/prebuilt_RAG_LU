@@ -1,3 +1,32 @@
+Metadata-Version: 2.1
+Name: prebuilt_RAG_LU
+Version: 1.0.3
+Summary: A library for building Retrieval-Augmented Generation (RAG) systems using ChromaDB and popular language models (LLMs).
+Home-page: https://github.com/mehrdadalmasi2020/prebuilt_RAG_LU
+Author: Mehrdad ALMASI, Demival VASQUES FILHO
+Author-email: mehrdad.al.2023@gmail.com, demival.vasques@uni.lu
+Project-URL: Documentation, https://github.com/mehrdadalmasi2020/prebuilt_RAG_LU
+Project-URL: Source, https://github.com/mehrdadalmasi2020/prebuilt_RAG_LU
+Project-URL: Tracker, https://github.com/mehrdadalmasi2020/prebuilt_RAG_LU/issues
+Keywords: RAG,Retrieval-Augmented Generation,transformers,ChromaDB,fine-tuning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers<5.0.0,>=4.20.0
+Requires-Dist: torch<2.0.0,>=1.7.0
+Requires-Dist: chromadb>=0.3.0
+Requires-Dist: pandas>=1.1.0
+Requires-Dist: scikit-learn>=1.0
+Requires-Dist: numpy<1.24.0,>=1.19.0
+Requires-Dist: openpyxl>=3.0.0
+
 # prebuilt_RAG_LU
 
 ## Overview
